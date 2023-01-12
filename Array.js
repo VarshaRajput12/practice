@@ -29,12 +29,16 @@
 //   return arr.indexOf(ele) === i
 // }));
 
-let arr2 = [1, 4, 5, 5, 5, 5, 8, 8, 8, 10];
-let array = [];
+// =================================================
 
-for (let i = 0; i < arr2.length; i++) {
-  if (arr2[i] !== arr2[i + 1]) {
-    array.push(arr2[i]);
-  }
-}
-console.log(array);
+// in sorted arr;
+
+// let arr2 = [1, 4, 5, 5, 5, 5, 8, 8, 8, 10];
+// let array = [];
+
+// for (let i = 0; i < arr2.length; i++) {
+//   if (arr2[i] !== arr2[i + 1]) {
+//     array.push(arr2[i]);
+//   }
+// }
+// console.log(array);
