@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flag {
+        width: 50%;
+        height: 50vh;
+        background: linear-gradient(
+          orange 30%,
+          white 30% 70%,
+          green 70%
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+      }
+
+      .inner {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: repeating-conic-gradient(navy 0 5%, white 5% 10%, navy 10% 15%, white 15% 20%, navy 20% 25%, white 25% 30%);
+        border: 1px solid navy;
+      }
+
+      .container > div {
+    width: 500px;
+    height: 40px;
+    background: linear-gradient( red 0 15%, orange 15% 30%,  yellow 30% 45%, green 45% 60%, blue 60% 75%, indigo 75% 90%, violet)
+  }
+
+      .container > div {
+        width: 500px;
+        height: 40px;
+      }
+
+      .container div:nth-child(9),
+      .container div:first-child,
+      .container div:last-child {
+        background: black;
+      }
+
+      /* .container div:nth-child(2),
+      .container div:nth-child(10) {
+        background: red;
+      }
+      .container div:nth-child(3),
+      .container div:nth-child(11) {
+        background: orangered;
+      }
+      .container div:nth-child(4),
+      .container div:nth-child(12) {
+        background: yellow;
+      }
+      .container div:nth-child(5),
+      .container div:nth-child(13) {
+        background: green;
+      }
+      .container div:nth-child(6),
+      .container div:nth-child(14) {
+        background: indigo;
+      }
+      .container div:nth-child(7),
+      .container div:nth-child(15) {
+        background: violet;
+      }
+
+      .container div:nth-child(8),
+      .container div:nth-child(16) {
+        background: blue;
+      } */
+
+      /* .container div:nth-child( even ) {
+   background: linear-gradient( orange 0 30%, white 30% 70%,  green 70% 100%)
+   
+  }    */
+
+  .circle{
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(red 5%, orange 8% 12%,  yellow 8% 15%, green 20% 30%, blue 25% 35%, indigo 38% 40%, violet 45% 50%, yellow 54% 60%, rgb(130, 0, 111) 65% 70%, pink 75%);
+    
+    
+  }
+    </style>
+  </head>
+  <body>
+    <div class="flag">
+  <div class="inner"></div>
+</div>
+
+    <!-- <div class="container">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div> -->
+
+    <!-- <div class="container">
+  <div></div> 
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div> -->
+
+<!-- <div class="circle">
+
+</div> -->
+  </body>
+</html>

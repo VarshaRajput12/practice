@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.notification {
+    background: var(--main-color);
+    width: 25%;
+    height: 35%;
+    padding: 1% 2%;
+    border-radius: 0.5em;
+    position: fixed;
+    right: 2%;
+    top: 5%;
+    z-index: 100;
+    display: none;
+  }
+  
+  .padding {
+    padding: 4% 0;
+  }
+  
+  .notification .profile2 {
+    align-items: center;
+  }
+  .notification .profile2 .image {
+    width: 60px;
+    border-radius: 50%;
+    background: var(--bg-color);
+  }
+  
+  .notification .profile2 i {
+    font-size: 0.8em;
+    background: #4b4c4e;
+    color: var(--main-color);
+    margin: 0 0 -8% -5%;
+  }
+  
+  .notification .profile2 p {
+    margin-left: 5%;
+  }
