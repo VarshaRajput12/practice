@@ -10,12 +10,14 @@
 
 // by using closure
 
-let multiply = function (a) {
-  return function (b) {
-    console.log(a * b);
-  };
-};
+// let multiply = function (a) {
+//   return function (b) {
+//     console.log(a * b);
+//   };
+// };
 
-// let multiplyby = multiply(2);
-console.log(multiply(2)(4));
+// // let multiplyby = multiply(2);
+// console.log(multiply(2));
 // multiplyby(4)
+
+
