@@ -63,27 +63,64 @@
 
 // call, apply and bind
 
-let obj = {
-    firstName: "varsha",
-    lastName: "Rajput"
+// let obj = {
+//     firstName: "varsha",
+//     lastName: "Rajput"
     
+// }
+// let obj2 = {
+//     firstName: "Kajal",
+//     lastName: "Rajput"
+    
+// }
+
+// function add(age, city){
+//     console.log(`${this.firstName} ${this.lastName} ${age} from ${city}`)
+// }
+
+// // add.call(obj, 21, "delhi")
+// // add.call(obj2, 15, "delhi")
+// // add.apply(obj2, [15, "delhi"])
+
+// let bindFun = add.bind(obj, 15, "delhi")
+
+// // console.log(bindFun)
+
+// bindFun()
+
+// =============================================
+
+// hoisting
+
+// abc()
+// console.log(a)
+// var a = 100;
+
+// function abc(){
+//     console.log("hello")
+// }
+
+
+//=========================================================
+
+// this keword 
+
+let obj = {
+    Name : "varsha",
+    surName : "rajput",
+    age :21,
+}
+
+function fun(){
+    return(`${this.Name} ${this.surName}`)
 }
 let obj2 = {
-    firstName: "Kajal",
-    lastName: "Rajput"
-    
+    Name : "kajal",
+    surName : "rajput",
+    age :21,
 }
 
-function add(age, city){
-    console.log(`${this.firstName} ${this.lastName} ${age} from ${city}`)
-}
 
-// add.call(obj, 21, "delhi")
-// add.call(obj2, 15, "delhi")
-// add.apply(obj2, [15, "delhi"])
 
-let bindFun = add.bind(obj, 15, "delhi")
-
-// console.log(bindFun)
-
-bindFun()
+console.log(fun.call(obj))
+console.log(fun.call(obj2))
