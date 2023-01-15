@@ -1,4 +1,4 @@
-.container{
+.cntainer{
     width: 500px;
     height: 500px;
     background-color: blueviolet;
@@ -17,3 +17,23 @@
     
 }
 
+.maincontainer{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    padding: 2rem;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 2rem;
+}
+
+.innercontainer{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(201, 201, 217);
+    padding: 2rem;
+}
