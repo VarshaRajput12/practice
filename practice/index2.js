@@ -35,20 +35,20 @@
 //   LastName: 'Rajput'
 // }
 
-// let obj2 = {
-//   firstName: 'Kajal',
-//   LastName: 'Rajput'
-// }
+let obj2 = {
+  firstName: 'Kajal',
+  LastName: 'Rajput'
+}
 
-// function Concat(city){
-//   console.log(`${this.firstName} ${this.LastName} from ${city}`)
-// }
+function Concat(city){
+  console.log(`${this.firstName} ${this.LastName} from ${city}`)
+}
 
-// // Concat.call(obj1, "Delhi")  // it helps us to change the context of this keyword invoking function
-// // Concat.apply(obj1, ['Delhi', ''])
+// Concat.call(obj1, "Delhi")  // it helps us to change the context of this keyword invoking function
+// Concat.apply(obj1, ['Delhi', ''])
 
-// let a = Concat.bind(obj1, 'Delhi');
-// a()
+let a = Concat.bind(obj1, 'Delhi');
+a()
 
 // function a(x){
 //    function b(y){
@@ -89,10 +89,10 @@
 
 //first class functions :- the ability to use function as values and can be returned from another function is known as first class function 
 
-var a = function (param) {
-  console.log(param)
-};
+// var a = function (param) {
+//   console.log(param)
+// };
 
-a(function abc(){
-    console.log("hello")
-  })
+// a(function abc(){
+//     console.log("hello")
+//   })
