@@ -188,21 +188,21 @@
 
 // event bubbling and capturing
 
-const maincontainer = document.querySelector(".maincontainer");
-const container = document.querySelector(".container");
-const innercontainer = document.querySelector(".innercontainer");
+// const maincontainer = document.querySelector(".maincontainer");
+// const container = document.querySelector(".container");
+// const innercontainer = document.querySelector(".innercontainer");
 
-function outerMost(){
-  alert("grandparent")
-}
-function outer(){
-  alert("parent");
-}
-function inner(e){
-    alert("child")
-    e.stopPropagation()
-}
+// function outerMost(){
+//   alert("grandparent")
+// }
+// function outer(){
+//   alert("parent");
+// }
+// function inner(e){
+//     alert("child")
+//     e.stopPropagation()
+// }
 
-maincontainer.addEventListener("click", outerMost);
-container.addEventListener("click", outer)
-innercontainer.addEventListener("click", inner)
+// maincontainer.addEventListener("click", outerMost);
+// container.addEventListener("click", outer)
+// innercontainer.addEventListener("click", inner)

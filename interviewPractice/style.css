@@ -1,4 +1,4 @@
-.cntainer{
+.container{
     width: 500px;
     height: 500px;
     background-color: blueviolet;
@@ -6,17 +6,51 @@
     justify-content: center;
     align-items: center; */
     display: grid;
-    place-items: center;
+    
+    /* place-items: center; */
    
+}
+
+.mainContainer{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 4fr 2fr;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+.main{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    /* position: relative; */
+    overflow-y: scroll;
 }
 
 .inner{
     width: 100px;
     height: 100px;
     background-color: black;
+    /* position: absolute; */
+    /* position: sticky; */
+    /* top: 50px; */
+    /* transition: width 4s height 4s border-radius 5s; */
+    /* animation: circle 2s; */
     
 }
 
+
+/* .inner:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} */
 .maincontainer{
     background-color: aqua;
     width: 300px;
